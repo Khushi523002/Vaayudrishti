@@ -79,8 +79,14 @@ body {
   }
   body {
     @apply bg-background text-foreground;
+    
+    
   
+  }
+  .h1{
+    justify-content: center;
   }
   
 }
+
 
