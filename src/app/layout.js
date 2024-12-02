@@ -1,6 +1,8 @@
+import React from "react";
 import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "@/components/navbar";
+import SearchCities from "./aqi/SearchCitites";
 
 
 
@@ -27,7 +29,9 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Navbar/>
+        
         {children}
+        <SearchCities/>
       </body>
     </html>
   );
